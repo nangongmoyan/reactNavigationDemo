@@ -15,7 +15,7 @@ const StackRouteScreen = () => {
         <RootStack.Screen
           key={name}
           name={name}
-          options={options}
+          // options={options}
           component={component}
         />
       ))}
